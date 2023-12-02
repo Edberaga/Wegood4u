@@ -1,0 +1,54 @@
+.main-logo, .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.thaigood4u:hover {
+  filter: drop-shadow(0 0 2em #f05b2b);
+  animation: 1s linear infinite alternate logo-bigger;
+}
+
+.msiagood4u:hover {
+  filter: drop-shadow(0 0 2em #292c7c);
+  animation: 1s linear infinite alternate logo-bigger;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes logo-bigger {
+  from {
+    transform: scale(1.0);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .main-logo {
+    animation: 3s linear infinite alternate logo-spin;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media screen and (min-width: 821px) {
+  .left-arrow{
+    transform: rotate(-90deg);
+  }
+
+  .right-arrow{
+    transform: rotate(90deg);
+  }
+}
