@@ -2,16 +2,18 @@
   height: 6em;
   padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 900ms;
 }
 
+.thaigood4u{height: 12em;}.msiagood4u {height: 10em;}
+
 .thaigood4u:hover {
-  filter: drop-shadow(0 0 2em #f05b2b);
+  filter: drop-shadow(0 0 2em #eb8f70);
   animation: 1s linear infinite alternate logo-bigger;
 }
 
 .msiagood4u:hover {
-  filter: drop-shadow(0 0 2em #292c7c);
+  filter: drop-shadow(0 0 2em #595b86);
   animation: 1s linear infinite alternate logo-bigger;
 }
 
