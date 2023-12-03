@@ -31,7 +31,6 @@ function App() {
       </div>
     </section>
   
-    <h1>Wegood4u</h1>
     <p className="read-the-docs">
       Click on the Logos to learn more
     </p>
